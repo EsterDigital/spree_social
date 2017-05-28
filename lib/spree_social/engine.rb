@@ -1,7 +1,7 @@
 module SpreeSocial
   OAUTH_PROVIDERS = [
     %w(Facebook facebook true),
-    %w(Twitter twitter false),
+    %w(Twitter twitter true),
     %w(Github github false),
     %w(Google google_oauth2 true),
     %w(Amazon amazon false)
